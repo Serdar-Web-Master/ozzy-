@@ -5,6 +5,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16\apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16\favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16\favicon-16x16.png">
+<link rel="manifest" href="favicon_package_v0.16\site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -20,19 +30,19 @@
    
     <nav class="navbar navbar-light bg-light">
       <div class="container-fluid">
-         <div class="logo">
+         <div class="logo__block">
             <a class="navbar-brand" href="#">
                <img
                  src="logo.png"
-                 width="70"
+                 width="90"
                  height="70"
-                 class="d-inline-block align-top"
+                 class="d-inline-block align-top logo"
                  alt=""
                  loading="lazy"
                />
                
              </a>
-             <h3>Ozzy Motors</h3>
+             <h3 class="logo__name">Ozzy Motors</h3>
          </div>
        
         <div class="right">
@@ -44,9 +54,9 @@
     </nav>
 
     <!-- Carouser -->
-    <div
+    <!-- <div
       id="carouselExampleDark"
-      class="carousel carousel-dark slide"
+      class="carousel carousel-dark slide carouser__size"
       data-bs-ride="carousel"
     >
       <div class="carousel-indicators">
@@ -112,6 +122,20 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+    </div> -->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
     </div>
 
     <!-- Cards -->
